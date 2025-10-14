@@ -1,0 +1,19 @@
+
+# Ignorar variables de entorno
+.env
+
+# Ignorar dependencias
+node_modules/
+
+# Archivos temporales o del sistema
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Ignorar bases de datos locales o dumps automáticos
+*.sql
+!docs/*.sql   # <- excepto los .sql dentro de /docs"
+*.db
+*.sqlite
